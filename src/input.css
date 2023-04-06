@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+};
+
+@layer components {
+    .tamanhos {
+        @apply mx-4 md:mx-14 xl:mx-28 2xl:mx-40 3xl:mx-64
+    };
+
+    .effect-zoom {
+        @apply lg:hover:scale-105 lg:transition lg:duration-150 lg:ease-in-out
+    }
+
+
+}

@@ -1,0 +1,27 @@
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    margin-right: -15px;
+    vertical-align: middle;
+    text-decoration: none;
+    -webkit-transition: width 0.1s;
+    transition: width 0.1s;
+    z-index: 40;
+}
+
+.btn .btn-text {
+    max-width: 0;
+    display: inline-block;
+    -webkit-transition: color .10s 1.5s, max-width 2s;
+    transition: color .10s 1.5s, max-width 2s;
+    vertical-align: tmiddle;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.btn:hover .btn-text {
+    max-width: 300px;
+}
